@@ -1,6 +1,6 @@
 # Custom Shell
 
-This document provides instructions for compiling and running the Custom Shell, a command-line interface for interacting with the operating system.
+This document provide instructions for compiling and running the Custom Shell, a command-line interface for interacting with the operating system.
 
 ## Getting Started
 

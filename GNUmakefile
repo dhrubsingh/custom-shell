@@ -2,7 +2,7 @@
 CXX = clang++
 CPPFLAGS = # Add any C preprocessor flags here
 CXXFLAGS = -Wall -std=c++11 # Add other C++ flags as needed
-LDFLAGS =  # Linker flags
+LDFLAGS =  # Linker flag
 LIBS =  # Any libraries you need to link
 O = -O2 # Optimization level
 

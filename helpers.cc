@@ -5,7 +5,7 @@
 
 // isshellspecial(ch)
 //    Test if `ch` is a command that's special to the shell (that ends
-//    a command word).
+//    a command word)
 
 inline bool isshellspecial(int ch) {
     return ch == '<' || ch == '>' || ch == '&' || ch == '|' || ch == ';'

@@ -38,7 +38,7 @@ struct shell_token_iterator;
 
 // shell_parser
 //    `shell_parser` objects represent a command line.
-//    See `shell_token_iterator` for more.
+//    See `shell_token_iterator` for more
 
 struct shell_parser {
     shell_parser(const char* str);
