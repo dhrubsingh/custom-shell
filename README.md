@@ -9,7 +9,7 @@ Follow these instructions to set up and run the Custom Shell on a macOS system.
 ### Prerequisites
 
 Ensure you have the following prerequisites installed:
-- A C++ compiler (Clang is recommended for macOS)
+- A C++ compiler (this project uses Clang for MacOS)
 - Make (for executing makefile commands)
 
 ### Program Execution Instructions
