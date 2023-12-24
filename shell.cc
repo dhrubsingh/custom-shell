@@ -188,7 +188,7 @@ void command::run() {
         return;
     }
 
-    // handle the subshell execution
+    // handle the subshell executions
     if (this->subshell_commands != nullptr) {
         pid_t sub_pid = fork();
         if (sub_pid < 0) {
