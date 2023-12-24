@@ -8,11 +8,6 @@
 
 #include <iostream>
 
-// For the love of God
-#undef exit
-#define exit __DO_NOT_CALL_EXIT__READ_PROBLEM_SET_DESCRIPTION__
-
-
 volatile sig_atomic_t sig_rec = 0;
 
 void sig_handle(int signal) {
