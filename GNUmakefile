@@ -1,9 +1,7 @@
 # Compiler settings - using clang which is default on macOS
 CXX = clang++
-CPPFLAGS = # Add any C preprocessor flags here
-CXXFLAGS = -Wall -std=c++11 # Add other C++ flags as needed
+CXXFLAGS = -Wall -std=c++11 
 LDFLAGS =  # Linker flag
-LIBS =  # Any libraries you need to link
 O = -O2 # Optimization level
 
 all: shell
