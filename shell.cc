@@ -322,10 +322,6 @@ void command::run() {
 //    `c->run()` and `waitpid`; you’ll extend it to handle command lists,
 //    conditionals, and pipelines.
 //
-//    It is possible, and not too ugly, to handle lists, conditionals,
-//    *and* pipelines entirely within `run_list`, but many students choose
-//    to introduce `run_conditional` and `run_pipeline` functions that
-//    are called by `run_list`.
 
 void run_pipeline(pipeline* p);
 void run_conditional(conditional* c);
