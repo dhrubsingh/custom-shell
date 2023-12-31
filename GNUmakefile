@@ -12,9 +12,6 @@ all: shell
 shell: shell.o helpers.o
 	$(CXX) $(CXXFLAGS) $(O) -o $@ $^ $(LDFLAGS) $(LIBS)
 
-sleep61: sleep61.cc
-	$(CXX) $(CPPFLAGS) $(CXXFLAGS) $(O) -o $@ $^ $(LDFLAGS) $(LIBS)
-
 clean:
 	rm -f shell *.o *~ *.bak core *.core
 	rm -rf out *.dSYM
